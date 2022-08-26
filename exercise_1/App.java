@@ -54,6 +54,47 @@ public class App {
         dragon.name = "Ancient Wyvern";
         dragon.enemyDialogue();
 
+        // Exercise 1 
+        Weapon axe = new Weapon();
+       
+        axe.name = "War Axe";
+        axe.damage = 90;
+        axe.weight = 10;
+        axe.rarity = "common";
+        axe.description = "The longer it figts, the stronger it gets.";
+        axe.displayName();
+        axe.displayDamage();
+        axe.displayWeight();
+        axe.displayRarity();
+        axe.displayWeaponDescription();
+
+        Weapon sword = new Weapon();
+       
+        sword.name = "Demon Sword";
+        sword.damage = 100;
+        sword.weight = 7;
+        sword.rarity = "Legendary";
+        sword.description = "A demon hunting weapon that contains a monumental power";
+        sword.displayName();
+        sword.displayDamage();
+        sword.displayWeight();
+        sword.displayRarity();
+        sword.displayWeaponDescription();
+
+        Weapon blade  = new Weapon();
+       
+        blade.name = "Blade of Destruction";
+        blade.damage = 100;
+        blade.weight = 5;
+        blade.rarity = "Rare";
+        blade.description = "A Rare Blade owned by King Xtian";
+        blade.displayName();
+        blade.displayDamage();
+        blade.displayWeight();
+        blade.displayRarity();
+        blade.displayWeaponDescription();
+    
+        
         // Exercise 1
         // 1. Create a "Weapon" class.
 
@@ -83,5 +124,7 @@ public class App {
         // Weight - 2
         // Rarity - "Common"
         // Description - "A cheap sword used mostly by common enemies"
+    
     }
+        
 }
