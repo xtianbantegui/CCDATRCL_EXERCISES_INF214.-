@@ -13,6 +13,9 @@ public class App {
         StudentName.add("Jul Seth Mari Mercado");
         StudentName.add("Idel Lawrence Aranilla");
         
+        // Display all elements of the queue.
+         System.out.println(StudentName);
+        
         // Get the size of the queue
            System.out.println(StudentName.size());
 
